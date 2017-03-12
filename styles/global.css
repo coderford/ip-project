@@ -68,7 +68,7 @@ article {
   padding:1.5em;
   background-color:#FAFAFB;
   margin: 0.5em 20%;
-  border-radius:1em;
+  border-radius:0.5em;
   box-shadow: 0.1em 0.1em 0.1em lightslategray;
   text-align:justify;
 }
