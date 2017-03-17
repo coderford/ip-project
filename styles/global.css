@@ -53,6 +53,7 @@ li#navbar-logo a:hover{
   background-color:inherit;
 }
 h1 {
+  font-family:'Yanone Kaffeesatz', sans-serif;
   color:#7A3935;
   padding:0;
   margin: 0;
