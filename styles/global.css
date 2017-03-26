@@ -32,11 +32,12 @@ body {
 
   text-align:center;
   font-family:'Baloo Bhaina', cursive;
+  font-size: 0.9em;
   color:white;
   text-decoration: none;
   padding: 8px;
   display:block;
-  width: 120px;
+  width: 90px;
   background-color:#F27031;
   border-left:1px solid #BE5830;
 }
@@ -46,7 +47,7 @@ body {
 }
 #navbar-logo a{
   color:#46332D;
-  font-size:1.5em;
+  font-size:1.3em;
   font-family:'Lobster',Verdana, sans-serif;
   font-weight:bold;
   padding-left: 2em;
