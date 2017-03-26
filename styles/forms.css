@@ -1,0 +1,30 @@
+form label {
+  display:block;
+  width:40%;
+  text-align:right;
+  float: left;
+  padding-right: 1em;
+
+}
+form input {
+  width: 45%;
+  float: left;
+}
+form p {
+  margin-right: 9%;
+  overflow: hidden;
+}
+p.button {
+  width: 100%;
+  clear: both;
+}
+p.button input {
+  float: none;
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+}
+
+article.form-container {
+  margin: 1em 30%;
+}
