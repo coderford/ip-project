@@ -29,6 +29,7 @@ body {
 
 }
 #navbar a{
+  transition: background-color 0.2s;
   float:right;
   text-align:center;
   font-family:'Baloo Bhaina', cursive;
@@ -54,7 +55,7 @@ body {
   background-color: #BE5830;
 }
 #navbar-logo a{
-  color:#46332D;
+  color:#FFF;
   font-size:1.3em;
   font-family:'Lobster',Verdana, sans-serif;
   font-weight:bold;
@@ -66,7 +67,6 @@ li#navbar-logo {
   float: left;
 }
 li#navbar-logo a:hover{
-  color:#46332D;
   background-color:inherit;
 }
 h1 {
