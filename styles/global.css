@@ -20,7 +20,7 @@ body {
   margin:0;
   padding:0;
   list-style-type: none;
-  background-color: #F27031;
+  background-color: #366ED1;
   overflow:hidden;
   box-shadow: 0 0.1em 0.1em lightslategray;
 }
@@ -39,8 +39,8 @@ body {
   padding: 5px;
   display:block;
   width: 90px;
-  background-color:#F27031;
-  border-left:1px solid #BE5830;
+  background-color:#366ED1;
+  border-left:1px solid #335EA8;
 }
 #navbar a#home-logo {
 
@@ -52,7 +52,7 @@ body {
 }
 #navbar a:hover{
   color:white;
-  background-color: #BE5830;
+  background-color: #335EA8;
 }
 #navbar-logo a{
   color:#FFF;
@@ -70,14 +70,17 @@ li#navbar-logo a:hover{
   background-color:inherit;
 }
 h1 {
+
+  text-shadow: 1px 1px 1px rgb(200, 200, 200);
   font-family:'Yanone Kaffeesatz', sans-serif;
-  color:#7A3935;
+  color:#363636;
   padding:0;
+  padding-bottom: 8px;
   margin: 0;
   text-align:center;
   font-weight:bold;
   font-size: 2em;
-  border-bottom: 2px solid rgba(117, 51, 51, 0.5);
+  border-bottom: 2px solid rgba(54, 54, 54, 0.5);
   margin-bottom: 1em;
 }
 .logo {

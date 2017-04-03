@@ -15,16 +15,41 @@ form p {
   overflow: hidden;
 }
 p.button {
-  width: 100%;
   clear: both;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  width: 100%;
+
 }
-p.button input {
+p.button button {
   float: none;
   display: block;
-  width: 20%;
+  width: 120px;
   margin: 0 auto;
 }
 
 article.form-container {
   margin: 1em 30%;
+}
+
+button {
+  box-shadow: 1px 1px 3px lightslategray;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 0.7em;
+  font-weight: bold;
+  background-color:#0D55AC;
+  color: white;
+  padding:6px;
+  border-radius: 3px;
+  border: 3px solid #0D55AC
+
+}
+
+button:hover {
+  color: #0D55AC;
+  background-color: white;
+}
+button:active {
+
+
 }
