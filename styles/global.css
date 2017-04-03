@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
-@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 body {
   font-size: 100%;
@@ -72,7 +71,7 @@ li#navbar-logo a:hover{
 h1 {
 
   text-shadow: 1px 1px 1px rgb(200, 200, 200);
-  font-family:'Yanone Kaffeesatz', sans-serif;
+  font-family:'Open Sans Condensed--m-', sans-serif;
   color:#363636;
   padding:0;
   padding-bottom: 8px;
