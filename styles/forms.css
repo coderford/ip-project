@@ -38,6 +38,7 @@ article.form-container {
 }
 
 button {
+  position: relative;
   box-shadow: 1px 1px 3px lightslategray;
   transition: background-color 0.3s, color 0.3s;
   font-size: 0.7em;
@@ -52,9 +53,8 @@ button {
 
 button:hover {
   color: #0D55AC;
-  background-color: white;
+  background-color: #ECF1F7;
 }
 button:active {
-
-
+  top:3px;
 }
