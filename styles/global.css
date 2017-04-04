@@ -155,3 +155,20 @@ p.copyright {
   padding: 4px;
 
 }
+/*about page styles*/
+p.profile {
+  overflow: hidden;
+}
+span.profile-name {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+p.profile img {
+  display: block;
+  float: right;
+  margin: 0 1em;
+  width: 25%;
+  border-radius: 50%;
+}
