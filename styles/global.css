@@ -9,6 +9,7 @@ body {
   background-color:#CDD1DD;
   padding-top: 55px;
 }
+/*top navigation bar styles*/
 #navbar {
   position: fixed;
   margin-top: -55px;
@@ -68,6 +69,7 @@ li#navbar-logo {
 li#navbar-logo a:hover{
   background-color:inherit;
 }
+/*body styles*/
 h1 {
 
   text-shadow: 1px 1px 1px rgb(200, 200, 200);
@@ -101,7 +103,10 @@ article video {
   width: 95%;
   margin: 1em auto;
 }
-
+dt {
+  font-weight: bold;
+  font-size: 1em;
+}
 /*footer styles*/
 footer {
 
