@@ -163,6 +163,7 @@ p.copyright {
 }
 /*about page styles*/
 p.profile {
+  padding: 20px 0;
   overflow: hidden;
 }
 span.profile-name {
