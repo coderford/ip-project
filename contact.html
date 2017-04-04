@@ -3,6 +3,7 @@
 <head>
   <title>Contact Us</title>
   <link href="styles/global.css" rel="stylesheet">
+  <link href="styles/forms.css" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
@@ -18,9 +19,14 @@
     </ul>
   </nav>
   </header>
-  <article>
+  <article class="form-container">
     <h1>Contact Us</h1>
-    <p>Wanna say hi? Use the form below: </p>
+    <p>Wanna say hi? Use this form: </p>
+    <form action=" " method="get">
+      <p><label for="email">Your e-mail: </label><input id="email" type="email" name="email" placeholder="your email..."></p>
+      <p><label for="feedback-txt">Say something:</label></p><p><textarea id="feedback-txt" rows="5" maxlength="300" placeholder="Write your message here"></textarea></p>
+      <p class="button"><button type="button" onclick="window.open('index.html', '_self')">Submit</button></p>
+    </form>
   </article>
   <footer>
     <nav>
