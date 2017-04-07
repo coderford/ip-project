@@ -14,6 +14,48 @@
       margin-top: 100px;
     }
     </style>
+    <script>
+    function checkEmpty() {
+      var isOk = true;
+      var first = document.getElementById('fname').value;
+      var last = document.getElementById('lname').value;
+      var em = document.getElementById('email').value;
+      var pwdag = document.getElementById('pwdagain').value;
+      var usrname = document.getElementById('uname').value;
+      var paswd = document.getElementById('pwd').value;
+      if(usrname === "") {
+        alert("Please enter a username!");
+        isOk = false;
+      }
+      if(paswd === "") {
+         alert("Please enter a password!");
+         isOk = false;
+      }
+      if(first === "") {
+         alert("Please enter first name!");
+         isOk = false;
+      }
+      if(last === "") {
+         alert("Please enter last name!");
+         isOk = false;
+      }
+      if(em === "") {
+         alert("Please enter an email!");
+         isOk = false;
+      }
+      if(pwdag === "") {
+        alert("Please confirm password!");
+        isOk = false;
+      }
+      if(pwdag !== pwd) {
+        alert("Passwords do not match!");
+        isOk = false;
+      }
+      if(isOk) {
+        window.open('index.html', '_self');
+      }
+    }
+    </script>
   </head>
   <body>
   <header>
@@ -37,7 +79,7 @@
       <p><label for="uname">User Name: </label><input id="uname" type="text" name="username" placeholder="Your username ..."></label></p>
       <p><label for="pwd">Password: </label><input id="pwd" type="password" name="password" placeholder="Your password ..."></p>
       <p><label for="pwdagain">Confirm Password: </label><input id="pwdagain" type="password" name="password-check" placeholder="Retype your password ..."></p>
-      <p class="button"><button type="button" onclick="window.open('index.html', '_self')" >Sign Up</button></p>
+      <p class="button"><button type="button" onclick="checkEmpty()" >Sign Up</button></p>
     </form>
   </article>
   <footer>
