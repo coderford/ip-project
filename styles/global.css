@@ -179,3 +179,9 @@ p.profile img {
   width: 25%;
   border-radius: 50%;
 }
+/*miscellaneous*/
+img.center-fit {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
