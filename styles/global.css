@@ -2,11 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 body {
+
   font-size: 100%;
   margin: 0;
   padding: 0;
   font-family:'Open Sans Condensed',Verdana, sans-serif;
-  background-color:#CDD1DD;
+  /*background-color:#CDD1DD;*/
+  /*background-image: linear-gradient(90deg, black, white 30%, white 60%, black);*/
+  background-image: url('../bkg1.jpg');
   padding-top: 55px;
 }
 /*top navigation bar styles*/
@@ -116,7 +119,7 @@ footer {
   padding-top: 0.5em;
   padding-bottom: 1.5em;
   width: 100%;
-  background-color: #2C2C2E;
+  background-color: #2C2C2C;
   font-family: monospace;
 }
 footer ul {
