@@ -35,6 +35,8 @@ p.button button {
 
 article.form-container {
   margin: 1em 30%;
+  float:none;
+  width: auto;
 }
 
 button {
