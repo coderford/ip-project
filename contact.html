@@ -13,18 +13,33 @@
     margin-top: 120px;
   }
   </style>
+  <script>
+  function showDropdown() {
+    document.getElementById('courses-dropdown').style.display='block';
+  }
+  function hideDropdown() {
+    document.getElementById('courses-dropdown').style.display='none';
+  }
+  </script>
 </head>
 <body>
   <header>
   <nav id="navbar">
     <ul>
       <li><a class="navbar-active" href="contact.html">Contact Us</a></li>
-      <li><a href="courses.html">Courses</a></li>
+      <li><a class="dropdown-hover" href="courses.html" onmouseover="showDropdown()">Courses</a></li>
       <li><a href="signup.html">Sign Up</a></li>
       <li><a href="loginform.html">Login</a></li>
       <li><a id="home-logo" href="index.html"><img src="home-icon.png" width="60%" ></a></li>
-      <li id="navbar-logo"><a href="index.html">CareerWiz</a></li>
+      <li id="navbar-logo"><a   href="index.html">CareerWiz</a></li>
     </ul>
+    <div onmouseout="hideDropdown()" style="display:block" onmouseover="showDropdown()">
+    <ul id="courses-dropdown">
+      <li><a href="engg-courses.html">Engineering</a></li>
+      <li><a href="mgmt-courses.html">Management</a></li>
+      <li><a href="med-courses.html">Medicine</a></li>
+    </ul>
+    </div>
   </nav>
   </header>
   <article class="form-container">
