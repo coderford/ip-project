@@ -17,10 +17,20 @@
     <script>
      function checkEmpty() {
        var isOk = true;
+       var isMatched = true;
+       var defUserName = "aditya";
+       var defPassword = "123#";
        var usrname = document.getElementById('uname').value;
        var paswd = document.getElementById('pwd').value;
        if(usrname === ""||paswd === "") {
          isOk = false;
+       }
+       if(usrname !== defUserName|| paswd !== defPassword) {
+         isMatched = false;
+       }
+       if(!isMatched) {
+         isOk = false;
+         document.getElementById('error-box').innerHTML = "Username or password do not match!";
        }
        if(isOk) {
          window.open('index.html', '_self');

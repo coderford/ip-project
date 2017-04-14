@@ -112,7 +112,12 @@ article.side {
   margin-bottom:0 ;
   margin-left: 2%;
   margin-right: 10%;
+  padding: 0 0.5em;
 }
+article.side h2, article.side p {
+  font-size: 0.8em;
+}
+ar
 p {
   margin: 0.5em 0;
 }
@@ -185,10 +190,11 @@ ul#courses-dropdown {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 120px;
+  width: 200px;
   position: absolute;
   top: 45px;
   right: 100px;
+  font-size: 1.3em;
 }
 #courses-dropdown li {
   text-align: center;
@@ -196,17 +202,15 @@ ul#courses-dropdown {
 }
 #courses-dropdown a {
   font-family: 'Open Sans Condensed';
-  background-color: white;
-  padding: 3px;
+  background-color: rgb(120, 120, 120);
+  padding: 10px 2px;
   width: 100%;
   border-left: none;
-  color: black;
+  color: white;
 }
 #courses-dropdown a:hover {
-  background-color: rgb(150, 150, 150);
-}
-.dropdown-hover {
-  cursor: default;
+  background-color: white;
+  color:black;
 }
 /*about page styles*/
 p.profile {
@@ -229,6 +233,6 @@ p.profile img {
 /*miscellaneous*/
 img.center-fit {
   display: block;
-  width: 90%;
+  width: 97%;
   margin: 0 auto;
 }
