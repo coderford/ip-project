@@ -7,5 +7,7 @@ Following are the various modules included in the project:
 * Registration Form
 * List of Courses
 * Course Pages
+
+
 All of the website is in HTML and CSS with a bit of javascript for rudimentary behavior.
 [Link to view website](https://coderford.github.io/ip-project)
